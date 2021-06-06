@@ -19,5 +19,9 @@ Diffuse: Lambert, Toon
 Specular: Phong, Blinn ,Toon
 and Physical Based rendering .
 
+Smooth Shading:
+-Gouraud shading
+
 Movement:
 Quaternion and interpolation.
+
