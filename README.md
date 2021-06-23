@@ -5,13 +5,13 @@ Creating a graphic engine and its Shaders using WebGl and Javascript (Browser su
 
 Namely , with the engine you will (at least) be able to use different techniques such as:
 
-Rendering Techniques:
+Rendering Techniques:  
 -Scan Line rendering
--Ray casting
+-Ray casting  
 
--Zbuffer
--Clipping
--BackfaceCulling
+-Zbuffer  
+-Clipping  
+-BackfaceCulling  
 
 Light Models:
 -Directional
