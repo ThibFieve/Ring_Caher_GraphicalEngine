@@ -6,7 +6,7 @@ Creating a graphic engine and its Shaders using WebGl and Javascript (Browser su
 Namely , with the engine you will (at least) be able to use different techniques such as:
 
 Rendering Techniques:  
--Scan Line rendering
+-Scan Line rendering 
 -Ray casting  
 
 -Zbuffer  
@@ -24,8 +24,10 @@ Specular: Phong, Blinn ,Toon
 and Physical Based rendering .
 
 Smooth Shading:
--Gouraud shading
+-Phong shading
 
 Movement:
 Quaternion and interpolation.
+
+Parent/ Child Relation.
 
