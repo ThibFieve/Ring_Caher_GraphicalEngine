@@ -19,9 +19,11 @@ Light Models:
 -Spot Ligths
 
 BRDF Models:
-Diffuse: Lambert, Toon
-Specular: Phong, Blinn ,Toon
-and Physical Based rendering .
+Diffuse: Lambert, Toon , Oren Nayar.
+Specular: Phong, Blinn ,Toon , Cook Torrance
+
+
+ Physical Based rendering .
 
 Smooth Shading:
 -Phong shading
