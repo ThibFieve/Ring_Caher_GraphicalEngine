@@ -7,7 +7,7 @@ Namely , with the engine you will (at least) be able to use different techniques
 
 Rendering Techniques:  
 -Scan Line rendering  
--Ray casting  
+ 
 
 -Zbuffer  
 -Clipping  
@@ -22,8 +22,6 @@ BRDF Models:
 Diffuse: Lambert, Toon , Oren Nayar.
 Specular: Phong, Blinn ,Toon , Cook Torrance
 
-
- Physical Based rendering .
 
 Smooth Shading:
 -Phong shading
