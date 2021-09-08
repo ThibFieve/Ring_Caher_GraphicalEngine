@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>05 - Scene Graph</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            background-color: gray;
+        }
+        canvas {
+            display: block;
+            background-color: white;
+        }
+    </style>
+
+    
+    <script type="text/javascript" src="lib/utils.js"></script>
+    <script type="text/javascript" src="lib/gameObject.js"></script>
+    <script type="text/javascript" src="lib/scene.js"></script>
+    <script type="text/javascript" src="lib/cubeDefinition.js"></script>
+    <script type="text/javascript" src="lib/skybox.js"></script>
+    <script type="text/javascript" src="lib/player.js"></script>
+    <script type="text/javascript" src="lib/pattern.js"></script>
+    <script type="text/javascript" src="lib/drawing_new.js"></script>
+    <script type="text/javascript" src="lib/cubetext.js"></script>
+	<script src="https://unpkg.com/mathjs@9.4.2/lib/browser/math.js"></script>
+	<script type="text/javascript" src="lib/webgl-obj-loader.min.js"></script>
+	<script type="text/javascript" src="lib/light.js"></script>
+	<script type="text/javascript" src="lib/camera.js"></script>
+    <script type="text/javascript" src="lib/ambientLight.js"></script>
+    <script type="text/javascript" src="lib/diffuseLight.js"></script>
+	<script type="text/javascript" src="lib/emittedLight.js"></script>
+    <script type="text/javascript" src="lib/specularLight.js"></script>
+
+	 
+</head>
+<body>
+<style type="text/css">
+    body {
+        margin: 0;
+        background-color: gray;
+    }
+    canvas {
+        display: block;
+        background-color: black;
+    }
+    
+    #overlay {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-family: monospace;
+    padding: 1em;
+    }
+</style>
+    <div id="overlay">
+        <div>Score: <span id="score"></span></div>
+        <br>
+        <div>Commands: </div>
+        <br>
+        <div>A – left </div>
+        <div>D – right </div>
+        <div>W – forward </div>
+        <div>S – backward </div>
+        <br>
+        <div>Light Type: </div>
+        <div>1 – Direct (default) </div>
+        <div>2 – Spot </div>
+        <div>3 – Point</div>
+        <br>
+        <div>Ambient Light Type: </div>
+        <div>4 - Ambient (default)</div>
+        <div>5 - Hemispherical</div>
+        <div>6 - SH</div>
+        <br>
+        <div>Diffuse Light Type: </div>
+        <div>7 - Lambert (default)</div>
+        <div>8 - Toon</div>
+        <div>9 - Oren-Nayar</div>
+        <br>
+        <div>Specular Light Type: </div>
+        <div>Z – Phong</div>
+        <div>X – Blinn</div>
+        <div>C – ToonP</div>
+        <div>V – ToonB</div>
+        <div>B – Cook Torrence</div>
+        <div>R – none (default)</div>
+        <br>
+        <div>Emitted Light Type: </div>
+        <div>Y – yes</div>
+        <div>N – no</div>
+    </div>
+    <canvas id="c"></canvas>
+    
+</body>
+
+</html>
