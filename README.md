@@ -5,3 +5,8 @@ Creating a graphic engine and its Shaders using WebGl and Javascript (Browser su
 ![Capture1](https://user-images.githubusercontent.com/17762123/131792915-dcb56787-773b-4c9b-ab0b-aaed81836d3c.PNG)
 ![Capture2](https://user-images.githubusercontent.com/17762123/131792926-5139ad14-7a92-4f92-88e9-a8a55958f921.PNG)
 ![Capture3](https://user-images.githubusercontent.com/17762123/131793732-adce3b5b-4ffe-4040-8925-b13ec2dad5c3.PNG)
+
+
+To launch the project, you will need to use a chrome extension to allow the browser to fetch data from the files (for security reasons this is blocked per default by the browser), this extension is called web server.
+![Extension](https://user-images.githubusercontent.com/17762123/132485214-7745559e-9ced-4d2b-927d-8785153ea615.PNG)
+
