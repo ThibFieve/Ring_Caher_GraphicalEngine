@@ -1,36 +1,7 @@
-# Ring_Chaser_GraphicalEngine
-
+# flying-ring-chaser
 
 Creating a graphic engine and its Shaders using WebGl and Javascript (Browser supported OpenGl) without pre-made Libraries to able to showcase a video game .The goal was to create from scratch a video game and its shaders without using any pre-built libraries. To do so we would use JavaScript as instruction given by the CPU and GLSL for implementing the shaders (Fragement and vertex shaders) within the GPU. The API used to allow communication is WebGL.
 
-Namely , with the engine you will (at least) be able to use different techniques such as:
-
-Rendering Techniques:  
--Scan Line rendering  
- 
-
--Zbuffer  
--Clipping  
--BackfaceCulling  
-
-Light Models:
--Directional
--Point light
--Spot Ligths
-
-BRDF Models:
-Diffuse: Lambert, Toon , Oren Nayar.
-Specular: Phong, Blinn ,Toon , Cook Torrance
-
-
-Smooth Shading:
--Phong shading
-
-Movement:
-Quaternion and interpolation.
-
-Parent/ Child Relation.
-
-Hand Made look at camera
-
-Skybox
+![Capture1](https://user-images.githubusercontent.com/17762123/131792915-dcb56787-773b-4c9b-ab0b-aaed81836d3c.PNG)
+![Capture2](https://user-images.githubusercontent.com/17762123/131792926-5139ad14-7a92-4f92-88e9-a8a55958f921.PNG)
+![Capture3](https://user-images.githubusercontent.com/17762123/131793732-adce3b5b-4ffe-4040-8925-b13ec2dad5c3.PNG)
