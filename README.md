@@ -1,4 +1,4 @@
-# Ring_chaser_GraphicalEngine
+# Ring_chaser_GraphicEngine
 
 Creating a graphic engine and its Shaders using WebGl and Javascript (Browser supported OpenGl) without pre-made Libraries to able to showcase a video game .The goal was to create from scratch a video game and its shaders without using any pre-built libraries. To do so we would use JavaScript as instruction given by the CPU and GLSL for implementing the shaders (Fragement and vertex shaders) within the GPU. The API used to allow communication is WebGL.
 
