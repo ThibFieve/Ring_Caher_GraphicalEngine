@@ -11,3 +11,6 @@ This chrome extension is called Web server for Chrome
 
 
 ![Extension](https://user-images.githubusercontent.com/17762123/132486404-0f807075-bc23-4085-8523-124790c51a41.PNG)
+
+
+This project allowed my colleagues and I to receive the "cum Laude" mark for the course of computer graphics.
